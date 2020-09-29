@@ -5,7 +5,7 @@
 ##The QuikBites Team
 
 *1. Kyle J. Dulce - 300169731<br/>
-*2.<br/>
+*2. Qassim Alkassir - 8883657<br/>
 *3.<br/>
 *4.<br/>
 *5.<br/>
