@@ -1,6 +1,7 @@
 Pages
 Home page - Mohamed 
   Login Page - Kyle
+  signup page (potentially, similar to login) - Kyle
   Restaurants near you   - Malika
   Restaurant info page - Hafsa
        (MAYBE) pricing - Kyle
