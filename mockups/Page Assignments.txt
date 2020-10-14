@@ -7,3 +7,6 @@ Home page - Mohamed
   Wait times Page - Michas
   Contact - Qassim
       our team - Qassim
+
+Header - Changes per week
+Footer - Changes per week
