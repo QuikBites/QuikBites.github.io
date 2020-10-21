@@ -17,7 +17,10 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	border: 0px;
+}
+
+html, body{
+	height: 100%
 }
 
 /*Font setup*/

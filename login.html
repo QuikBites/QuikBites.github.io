@@ -4,6 +4,7 @@
 		<!--Style Guides for header and footer-->
 		<title>QuikBites</title>
 		<link rel="stylesheet" href="commonSheets.css">
+		<link rel="stylesheet" href="login.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Rambla:i" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
@@ -11,24 +12,30 @@
 	</head>
 	<body>
 		<!--Includes premade header html-->
-		<iframe src="header.html" id="Header"></iframe>
-		
-		<div style="background-image: url('./images/Login_Background_Temp.jpg'); height: 100%; margin-top: 0">
+		<div id="BackgroundArea">
+			<iframe src="header.html" id="Header"></iframe>
 			<!--TODO: Replace Temporary Image-->
-			<div id="CenterArea" style="background-color: white; height: 500px; width: 350px">
+			<div id="CenterArea">
 				<p class="title">QuikBites Login</p><br>
+				
+				<hr>
+				
 				<p>Email</p>
-				<input type="text"><br>
+				<div>
+					<input type="text">
+				</div>
 				<p>Password</p>
-				<input type="text"><br>
-				<button>Login</button><br>
-				<button>Sign up</button>
+				<div>
+					<input type="text"><br>
+				</div>
+				<div>
+					<button>Login</button><br>
+					<button>Sign up</button>
+				</div>
 			</div>
 		</div>
-		
-	</body>
-	<footer>
 		<!--Includes premade footer html-->
 		<!--iframe src="footer.html" id="Footer"></iframe-->
-	</footer>
+	</body>
+		
 </html>
