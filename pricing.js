@@ -25,7 +25,7 @@ function onOpenQuestion(id) {
 	
 		//Creates paragraph inside answerDiv
 		var p = document.createElement("p");
-		p.innerHTML = Questions[id, 1];
+		p.innerHTML = Questions[id][1];
 		
 		//Adds to container
 		answerDiv.appendChild(p);
@@ -53,7 +53,7 @@ for(var i = 0; i < Questions.length; i++) {
 	
 	//Creates paragraph inside span
 	var pspan = document.createElement("p");
-	pspan.innerHTML = Questions[i, 0];
+	pspan.innerHTML = Questions[i][0];
 	pspan.classList.add("inlineElement");
 	pspan.classList.add("QuestionContainer");
 	
