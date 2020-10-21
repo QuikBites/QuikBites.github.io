@@ -1,0 +1,30 @@
+
+Color scheme
+	Color 1: #e1ad01 (Yellow)
+	Color 2: #b3272d (Red)
+	Color 3: #FFFFFF (white)
+	Color 4: #222222 (Black)
+	
+Fonts:
+	Title: "Rambla" Italic
+	General Headers: 'Source Sans Pro', sans-serif
+	Main Text: 'Quicksand', sans-serif
+		
+	Remember These lines
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	This is the links for the thingys
+	<link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet"> 
+	
+	
+How to use this
+
+ADD THIS INTO YOUR HTML FILES
+<iframe src="footer.html" id="Footer"></iframe>
+<iframe src="header.html" id="Header"></iframe>
+
+In header
+<link rel="stylesheet" href="commonSheets.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
