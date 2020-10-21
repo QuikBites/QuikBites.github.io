@@ -1,0 +1,57 @@
+.colParent {
+	overflow:hidden;
+}
+
+.col {
+	float:left;
+	width: 33.33%;
+}
+
+.openable {
+	margin: auto;
+	height: auto;
+	padding: 15px;
+	width: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 7px;
+}
+
+.imageButton {
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 0px
+}
+
+.QuestionContainer {
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px
+}
+
+.inlineElement {
+	display: block;
+	overflow: hidden;
+}
+
+.answercontainer {
+	margin-top: 20px;
+}
+
+body > * {
+	text-align: center;
+}
+
+span {
+	display: inline-block;
+}
+
+h1, h2 {
+	font-family: 'Rambla';
+}
+
+li {
+	font-family: 'Quicksand';
+}
