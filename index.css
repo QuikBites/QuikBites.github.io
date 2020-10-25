@@ -1,0 +1,86 @@
+#Header {
+    width: 100%;
+    border-style: none;
+    margin-bottom: 0px;
+}
+#Footer {
+    width: 100%;
+    border-style: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+
+.background{
+    margin: 0px;
+    background-image: url(images/title-background.jpg);
+    background-size: cover;
+    position: relative;
+    height: 430px;
+}
+
+#title{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: #ffdb58;
+    top: 200px;
+    right: 650px;
+    text-align: center;
+    border: 5px #000 solid;
+    font-family: Rambla;
+    padding-top: 130px;
+    font-size: large;
+}
+
+.des1{
+    float: right;
+    width: 40%;
+    padding: 15px;
+    background-color:#b3272d;
+    height: 450px;
+    border: 1px #b3272d solid;
+}
+.img1{
+    position: absolute;
+    float: left;
+    width: 60%;
+    padding: 15px;
+    height: 450px;
+    border: 1px #b3272d solid;
+    background-image: url(images/happycCostumers.jpg);
+    background-size: cover;
+    background-position: 0px 0px 0px 150px;
+}
+
+.des2{
+    float: left;
+    width: 40%;
+    padding: 15px;
+    background-color:#b3272d;
+    height: 450px;
+    border: 1px #b3272d solid;
+}
+.img2{
+    float: right;
+    width: 60%;
+    padding: 15px;
+    height: 450px;
+    border: 1px #b3272d solid;
+}
+.img3{
+    position: absolute;
+    float: left;
+    width: 60%;
+    padding: 15px;
+    height: 450px;
+    border: 1px #b3272d solid;
+    background-image: url(images/happycCostumers.jpg);
+    background-size: cover;
+    background-position: 0px 0px 0px 150px;
+}
