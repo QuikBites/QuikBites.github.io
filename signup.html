@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html style="height:100%">
+<html>
 	<head>
 		<!--Style Guides for header and footer-->
-		<style>
-			#Header {
-			   width: 100%;
-			   border-style: none;
-		   }
-			#Footer {
-			   width: 100%;
-			   border-style: none;
-		   }
-		   #CenterArea {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%)
-		   }
-		</style>
+		<title>QuikBites</title>
+		<link rel="stylesheet" href="commonSheets.css">
+		<link rel="stylesheet" href="login.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Rambla:i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
 	</head>
-	<body style="background-image: url('./resources/Login_Background_Temp.jpg'); height: 100%">
-		<!--Includes premade header html-->
-		<!--iframe src="header.html" id="Header"></iframe-->
-		
-		<!--TODO: Replace Temporary Image-->
-		<div id="CenterArea" style="background-color: white; height: 500px; width: 350px">
-			<p>Thousands of students gets their wait times with QuikBites</p><br>
-			<p>Email*</p>
-			<input type="text"><br>
-			<p>Password*</p>
-			<input type="text"><br>
-			<p>Confirm Password*</p>
-			<input type="text"><br>
-			<p>* - Required Fields</p>
-			<button>Sign up</button>
+	<body>
+		<div id="BackgroundArea">
+			<!--Includes premade header html-->
+			<iframe src="header.html" id="Header"></iframe>
+			
+			<!--TODO: Replace Temporary Image-->
+			<div id="CenterArea">
+				<p>Thousands of students gets their wait times with QuikBites</p><br>
+				
+				<hr>
+				
+				<p>Email*</p>
+				<div>
+					<input type="text"><br>
+				</div>
+				<p>Password*</p>
+				<div>
+					<input type="text"><br>
+				</div>
+				<p>Confirm Password*</p>
+				<div>
+					<input type="text"><br>
+				</div>
+				<p>* - Required Fields</p>
+				<div>
+					<button>Sign up</button>
+				</div>
+			</div>
 		</div>
-		
-		
-	</body>
-	<footer>
 		<!--Includes premade footer html-->
 		<!--iframe src="footer.html" id="Footer"></iframe-->
-	</footer>
+	</body>
 </html>

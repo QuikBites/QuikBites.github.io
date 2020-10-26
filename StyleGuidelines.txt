@@ -1,0 +1,45 @@
+
+Color scheme
+	Color 1: #e1ad01 (Yellow)
+	Color 2: #b3272d (Red)
+	Color 3: #FFFFFF (white)
+	Color 4: #222222 (Black)
+	
+Fonts:
+	Title: "Rambla" Italic
+	General Headers: 'Source Sans Pro', sans-serif
+	Main Text: 'Quicksand', sans-serif
+		
+	Remember These lines for api
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	This is the links for the fonts
+	<link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet"> 
+	
+	
+How to use this
+
+ADD THIS INTO YOUR HTML FILES
+ADD TO BODY
+<iframe src="footer.html" id="Footer"></iframe>
+<iframe src="header.html" id="Header"></iframe>
+
+IN HEAD
+<title>QuikBites</title>
+<link rel="stylesheet" href="commonSheets.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Rambla:i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+
+If you want to use Title font:
+	set class to .title
+Heading Fonts
+	class to .heading
+Main Text Fonts
+	class to .main
+	
+Example
+<p class="main">This is text with font</p>

@@ -1,0 +1,165 @@
+
+/*ABOUT PAGE*******************************/
+
+#about {
+	padding-left: 0px;
+	padding-right: 0px;
+	color: yellow;
+	height: 100vh;
+	
+}
+background-color: #b3272d;
+.123 {
+	z-index: -1;
+	
+}
+ 
+
+/* FEATURES PAGE **************************/
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+}
+
+.features {
+	height: 100vh;
+	background-color
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.leftpane {
+    width: 33%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-collapse: separate;
+	border-spacing: 1px 10px;
+
+}
+
+.middlepane {
+    width: 34%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-collapse: separate;
+	border-spacing: 1px 10px;
+
+}
+
+.rightpane {
+	width: 33%;
+	height: 100%;
+	float: right;
+	background-color: white;
+	border-collapse: separate;
+	border-spacing: 1px 10px;
+
+}
+
+.toppane {
+	width: 100%;
+	height: 100px;
+	border-collapse: collapse;
+	background-color: white;
+	color: #b3272d;
+
+}
+.h2{
+	font-family: "Quicksand", sans serif;
+	font-size: 15px;
+	color: #b3272d;
+
+}
+.p1 {
+	font-family: "Rambla", sans serif;
+	font-size: 15px;
+	color: #b3272d;
+}
+.p2 {
+	font-family: "Rambla", sans serif;
+	font-size: 15px;
+	color: #b3272d;
+
+
+}
+.h1 {
+	font-family: "Rambla", sans serif;
+	font-size: 55px;
+	text-align: center;
+}
+img.resize {
+	width:100px;
+	height:100px;
+}
+
+/* CONTACT PAGE */
+
+input[type="text"], {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #b3272d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #b3272d;
+}
+
+/*************CONTACT **************/
+
+.contact{
+	font-family: "Rambla", sans serif;
+	height: 100vh;
+}
+
+.form{
+	font-family: "Rambla", sans serif;
+}
+
+.input {
+	font-family: "Rambla", sans serif;
+}
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #b3272d;
+	background: transparent;
+}
+
+#grad1 {
+	height: 130vh;
+	background: white; /* For browsers that do not support gradients */    
+	background: -webkit-linear-gradient(top, white , #e1ad01); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, white, #e1ad01);  /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, white, #e1ad01);  /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, white , #e1ad01);  /* Standard syntax (must be last) */
+}

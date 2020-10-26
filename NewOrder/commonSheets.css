@@ -1,0 +1,37 @@
+
+/*Header and footer styling*/
+#Header {
+	position: relative;
+	width: 100%;
+	border-style: none;
+	background-color: #b3272d;
+	height: 100px;
+}
+
+#Footer {
+	width: 100%;
+	border-style: none;
+}
+
+/*Resets all padding margins and borders for all elements for header*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body{
+	height: 100%
+}
+
+/*Font setup*/
+.title {
+	font-family: "Rambla"
+}
+
+.heading {
+	font-family: "Source Sans Pro"
+}
+
+.main {
+	font-family: "Quicksand"
+}
