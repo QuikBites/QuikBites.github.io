@@ -1,0 +1,566 @@
+/*
+HOME PAGE CSS STUFF
+
+*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+    font-family: "Rambla", sans-serif;
+}
+
+h2 {
+	font-family: "Rambla", sans serif;
+	color: #b3272d;
+}
+h3 {
+	font-family: "Rambla", sans serif;
+	color: #b3272d;
+}
+p {
+	font-family: "Rambla", sans serif;
+}
+
+.title1 {
+	transform-style: preserve-3d;
+	transition: all 2s ease-in-out;
+}
+.title1:hover {
+	transform: rotateY(360deg);
+}
+
+.home-section {
+	background-image: url("restaurants1.jpg" );
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	top: 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: honeydew;
+	
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.topnav {
+	width: 100%;
+	line-height: 30px;
+	overflow: hidden;
+	z-index: +1;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #b3272d; opacity: 0.9; filter: alpha(opacity=80);
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	top: 0;
+}
+
+.topnav ul li {
+    float: right;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+.topnav ul li a {
+    display: block;
+    color: honeydew;
+	font-family: "Rambla", sans-serif;
+	font-size: 15px
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition: 1s ease;
+
+}
+
+.topnav ul li.header-logo{
+	float: left;
+	cursor: pointer;
+}
+
+.topnav ul li a:hover {
+	border-top: 4px solid honeydew;
+	border-bottom: 4px solid honeydew;
+	padding: 6px 0;
+	font-size: 15px;
+}
+
+
+button {
+    background-color:#b3272d; opacity: 0.9; filter: alpha(opacity=80); /* Teal */
+    border: none;
+    color: honeydew;
+	font-family: "Rambla", sans-serif;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 12px;
+
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: honeydew;
+	color:#b3272d;  /*Red*/
+	outline: solid, 2px, #b3272d;
+	outline-offset: 200px;
+}
+
+
+
+/*ABOUT PAGE*******************************/
+
+#about {
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #b3272d;
+	height: 100vh;
+}
+.123 {
+	z-index: -1;
+}
+ 
+
+/* FEATURES PAGE **************************/
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+}
+
+.features {
+	height: 100vh;
+	background-color
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.leftpane {
+    width: 33%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-collapse: separate;
+	border-spacing: 1px 10px;
+
+}
+
+.middlepane {
+    width: 34%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-collapse: separate;
+	border-spacing: 1px 10px;
+
+}
+
+.rightpane {
+	width: 33%;
+	height: 100%;
+	float: right;
+	background-color: white;
+	border-collapse: separate;
+	border-spacing: 1px 10px;
+
+}
+
+.toppane {
+	width: 100%;
+	height: 100px;
+	border-collapse: collapse;
+	background-color: white;
+	color: #b3272d;
+
+}
+.h2{
+	font-family: "Quicksand", sans serif;
+	font-size: 15px;
+	color: teal;
+
+}
+.p1 {
+	font-family: "Rambla", sans serif;
+	font-size: 15px;
+	color: #b3272d;
+}
+.p2 {
+	font-family: "Rambla", sans serif;
+	font-size: 15px;
+	color: #b3272d;
+
+
+}
+.h1 {
+	font-family: "Rambla", sans serif;
+	font-size: 55px;
+	text-align: center;
+}
+img.resize {
+	width:100px;
+	height:100px;
+}
+/****Background Strips************/
+
+.strip1 {
+	background-image: url("mockups/images/strip.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 30vh;
+}
+
+/* CONTACT PAGE */
+
+input[type="text"], {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Sign up PAGE*/
+.team-section{
+	background-size: cover;
+	padding: 0px;
+	margin-top: 100px;
+	top:0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: FFFFF0;
+}
+.three-people{
+	background-size: cover;
+	padding: 40;
+	margin: 0;
+	top:0;
+
+	display: inline;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: FFFFF0;
+
+	
+	
+	
+	
+	
+}
+.person4{
+	position: relative;
+	height: 400px;
+	width: 300px;
+	background-size: 160%;
+	float: left;
+	margin-right: 75px;
+	background-position:center;
+	transition: 0.5s;
+	
+}
+.person4:hover{
+	background-size:140%;
+	
+}
+.person4:after{
+	position: absolute;
+	top:90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space:pre-wrap;
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.6);
+	color:#fff;
+	padding:0 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+.person4:hover:after{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+.person4:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.person5{
+	position: relative;
+	height: 400px;
+	width: 300px;
+	background-size: 130%;
+	float: left;
+	margin-left: 75px;
+	background-position:center;
+	transition: 0.5s;
+
+}
+.person5:hover{
+	background-size:100%;
+}
+.person5:after{
+	position: absolute;
+	top:90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space:pre-wrap;
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.6);
+	color:#fff;
+	padding:0 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+.person5:hover:after{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+.person5:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.person1{
+	position: relative;
+	height: 400px;
+	width: 300px;
+	float: left;
+	background-size: 145%;
+	background-position: center;
+	transition: 0.5s;
+}
+.person1:hover{
+	background-size:135%;
+}
+.person1:after{
+	position: absolute;
+	top:90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space:pre-wrap;
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.6);
+	color:#fff;
+	padding:0 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+.person1:hover:after{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+.person1:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.team-banner{
+	background-image: url("Foods.jpg");
+	background-size: cover;
+	height: 200px;
+	padding: 75px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: honeydew;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.person2{
+	position: relative;
+	height: 400px;
+	width: 300px;
+	background-size: 140%;
+	float: left;
+	margin-left: 75px;
+	margin-right: 75px;
+	background-position:center;
+	transition: 0.5s;
+
+}
+.person2:hover{
+	background-size:120%;
+}
+.person2:after{
+	position: absolute;
+	top:90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space:pre-wrap;
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.6);
+	color:#fff;
+	padding:0 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+.person2:hover:after{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+.person2:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.person3{
+	position: relative;
+	height: 400px;
+	width: 300px;
+	background-size: 160%;
+	float: right;
+	background-position:center;
+	transition: 0.5s;
+
+}
+.person3:hover{
+	background-size:140%;
+}
+.person3:after{
+	position: absolute;
+	top:90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space:pre-wrap;
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.6);
+	color:#fff;
+	padding:0 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+.person3:hover:after{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+.person3:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+/*************CONTACT **************/
+
+.contact{
+	font-family: "Quicksand", sans serif;
+	height: 100vh;
+}
+
+.form{
+	font-family: "Rambla", sans serif;
+}
+
+.input {
+	font-family: "Rambla", sans serif;
+}
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #b3272d;
+	background: transparent;
+}
+
+#grad1 {
+	height: 130vh;
+	background: white; /* For browsers that do not support gradients */    
+	background: -webkit-linear-gradient(top, white , #e1ad01); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, white, #e1ad01);  /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, white, #e1ad01);  /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, white , #e1ad01);  /* Standard syntax (must be last) */
+}
