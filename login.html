@@ -9,6 +9,46 @@
 		<link href="https://fonts.googleapis.com/css?family=Rambla:i" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+		<script>
+		
+			var ON_LOGIN_REDIRECT = "./index.html";
+			var ON_SIGNUP_REDIRECT = "./signup.html";
+		
+			function onLog() {
+				var email = document.getElementById("Email").value;
+				var pass = document.getElementById("Pass").value;
+				
+				if(email != "" && pass != "") {
+					
+					//Check valid email
+					var regex = /.+@.+\..+/;
+					if(regex.test(email)) {
+						//Everything works login
+						document.getElementById("Error").innerHTML = "";
+							
+						//Store user
+						window.localStorage.setItem("Email", email);
+						console.log(window.localStorage.getItem("Email"));
+							
+						//Redirect user
+						window.location.href = ON_LOGIN_REDIRECT;
+					} else {
+						document.getElementById("Error").innerHTML = "Invalid Email!";
+						alert("Invalid Email!");
+					}
+					
+				} else {
+					document.getElementById("Error").innerHTML = "You have some missing Fields!";
+					alert("You have some missing Fields!");
+				}
+				window.localStorage.setItem("Email", email);
+				console.print(window.localStorage.getItem("Email"));
+			}
+			
+			function onSign() {
+				window.location.href = ON_SIGNUP_REDIRECT;
+			}
+		</script>
 	</head>
 	<body>
 		<!--Includes premade header html-->
@@ -22,20 +62,21 @@
 				
 				<p>Email</p>
 				<div>
-					<input type="text">
+					<input type="text" id="Email">
 				</div>
 				<p>Password</p>
 				<div>
-					<input type="text"><br>
+					<input type="text" id="Pass"><br>
 				</div>
 				<div>
-					<button>Login</button><br>
-					<button>Sign up</button>
+					<button onclick="onLog()">Login</button><br>
+					<button onclick="onSign()">Sign up</button>
 				</div>
+				<p id="Error"></p>
 			</div>
 		</div>
 		<!--Includes premade footer html-->
-		<!--iframe src="footer.html" id="Footer"></iframe-->
+		<iframe src="footer.html" id="Footer"></iframe>
 	</body>
 		
 </html>

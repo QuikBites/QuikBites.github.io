@@ -9,6 +9,51 @@
 		<link href="https://fonts.googleapis.com/css?family=Rambla:i" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+		<script>
+			var ON_SIGNUP_REDIRECT = "./index.html";
+		
+			function onLog() {
+				//gets all data
+				var Fname = document.getElementById("Fname").value.trim();
+				var Lname = document.getElementById("Lname").value.trim();
+				var email = document.getElementById("Email").value.trim();
+				var pass = document.getElementById("Pass").value;
+				var passConf = document.getElementById("PassConf").value;
+				
+				//Verifies each field is filled
+				if (Fname != "" && Lname != "" && email != "" && pass != "" && passConf != "") {
+					//Checks if email is valid
+					//regex [.+@.+\..+]
+					var regex = /.+@.+\..+/;
+					if(regex.test(email)) {
+						//Checks if passwords match
+						if(pass == passConf) {
+							//Everything works login
+							document.getElementById("Error").innerHTML = "";
+							
+							//Store user
+							window.localStorage.setItem("Email", email);
+							console.log(window.localStorage.getItem("Email"));
+							
+							//Redirect user
+							window.location.href = ON_SIGNUP_REDIRECT;
+						} else {
+							document.getElementById("Error").innerHTML = "Your passwords dont match!";
+							alert("Your passwords dont match!");
+						}
+					} else {
+						document.getElementById("Error").innerHTML = "That is not an email!";
+						alert("That is not an email!");
+					}
+				} else {
+					document.getElementById("Error").innerHTML = "You have some missing Fields!";
+					alert("You have some missing Fields!");
+				}
+				
+				
+
+			}
+		</script>
 	</head>
 	<body>
 		<div id="BackgroundArea">
@@ -21,25 +66,34 @@
 				
 				<hr>
 				
+				<p>First name*</p>
+				<div>
+					<input type="text" id="Fname"><br>
+				</div>
+				<p>Last name*</p>
+				<div>
+					<input type="text" id="Lname"><br>
+				</div>
 				<p>Email*</p>
 				<div>
-					<input type="text"><br>
+					<input type="text" id="Email"><br>
 				</div>
 				<p>Password*</p>
 				<div>
-					<input type="text"><br>
+					<input type="text" id="Pass"><br>
 				</div>
 				<p>Confirm Password*</p>
 				<div>
-					<input type="text"><br>
+					<input type="text" id="PassConf"><br>
 				</div>
 				<p>* - Required Fields</p>
 				<div>
-					<button>Sign up</button>
+					<button onclick="onLog()">Sign up</button>
 				</div>
+				<p id="Error"></p>
 			</div>
 		</div>
 		<!--Includes premade footer html-->
-		<!--iframe src="footer.html" id="Footer"></iframe-->
+		<iframe src="footer.html" id="Footer"></iframe>
 	</body>
 </html>
