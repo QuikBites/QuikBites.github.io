@@ -40,6 +40,11 @@
 	margin-top: 20px;
 }
 
+#HeadingContainer {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
 body > * {
 	text-align: center;
 }
@@ -48,7 +53,12 @@ span {
 	display: inline-block;
 }
 
-h1, h2 {
+h1 {
+	font-family: 'Rambla';
+	font-size: 45px;
+}
+
+h2 {
 	font-family: 'Rambla';
 }
 
