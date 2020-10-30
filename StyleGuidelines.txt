@@ -43,3 +43,17 @@ Main Text Fonts
 	
 Example
 <p class="main">This is text with font</p>
+
+Animations
+	animate-on-scroll-<name>
+	Animates element when scrolled into viewport
+	
+	How to use
+	Verify you have commonJS.js included at the bottom of the html
+	
+	give the class "animate-on-scroll-<name>" to any element you wish to include
+	replacing <name> with the name of the animation
+	
+	Avaliable animations
+		fademove
+			fades and moves in the element on animation

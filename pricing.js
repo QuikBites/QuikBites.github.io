@@ -13,26 +13,18 @@ var Questions = [
 function onOpenQuestion(id) {
 	//Gets the answer div element
 	divAnswer = document.getElementById("q" + id);
+	divButton = document.getElementById("bq" + id);
 	
 	//Checks if the div element is currently hidden
-	if (divAnswer == null) {
+	if (divAnswer.classList.contains("answercontainer-open")) {
 		//It is currently hidden, must add div
 		
-		//Creates Answerbox inside container
-		var answerDiv = document.createElement("div");
-		answerDiv.id = "q" + id;
-		answerDiv.classList.add("answercontainer");
-	
-		//Creates paragraph inside answerDiv
-		var p = document.createElement("p");
-		p.innerHTML = Questions[id][1];
-		
-		//Adds to container
-		answerDiv.appendChild(p);
-		document.getElementById("qc" + id).appendChild(answerDiv);
+		divAnswer.classList.remove("answercontainer-open");
+		divButton.classList.remove("imageButton-open");
 	} else {
 		//It is not hidden, should remove
-		document.getElementById("qc" + id).removeChild(divAnswer);
+		divAnswer.classList.add("answercontainer-open");
+		divButton.classList.add("imageButton-open");
 	}
 }
 
@@ -64,12 +56,26 @@ for(var i = 0; i < Questions.length; i++) {
 	imageButton.setAttribute("onclick", "onOpenQuestion(" + i + ")");
 	imageButton.classList.add("imageButton");
 	imageButton.classList.add("inlineElement");
+	imageButton.id = "bq" + i;
+	
+	//Creates Answerbox inside container
+	var answerDiv = document.createElement("div");
+	answerDiv.id = "q" + i;
+	answerDiv.classList.add("answercontainer");
+	
+	//Creates paragraph inside answerDiv
+	var ap = document.createElement("p");
+	ap.innerHTML = Questions[i][1];
+	
+	//Adds to container
+	answerDiv.appendChild(ap);
 	
 	//Adds all elements to their parents
 	insideSpan.appendChild(pspan);
 	insideSpan.appendChild(imageButton);
 	
 	openableContainer.appendChild(insideSpan);
+	openableContainer.appendChild(answerDiv);
 	
 	//Add element to document
 	faqPage.appendChild(openableContainer);

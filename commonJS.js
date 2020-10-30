@@ -33,16 +33,16 @@ function isElementInViewport(e) {
 
 //Function that checks each visible element
 function animateCheck() {
-	//loops through each static element
+	//loops through each static element for 
 	for (x = 0; x < scrollAnimateObj.length; x++) {
 		//Checks if element is in viewport
 		if(isElementInViewport(scrollAnimateObj[x])) {
 			//Make visible
 			scrollAnimateObj[x].classList.add("animate-on-scroll-fademove-visible");
-		} else {
+		} /*else {
 			//Otherwise, hide
 			scrollAnimateObj[x].classList.remove("animate-on-scroll-fademove-visible");
-		}	
+		}	*/
 	}
 	aniframe(animateCheck);
 }

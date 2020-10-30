@@ -5,10 +5,18 @@
 .col {
 	float:left;
 	width: 33.33%;
+	margin-bottom: 30px;
+}
+
+.colin{
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 7px;
+	margin: 0 15px 0 15px;
 }
 
 .openable {
-	margin: auto;
+	margin: 15px auto 15px auto;
 	height: auto;
 	padding: 15px;
 	width: 50%;
@@ -22,7 +30,33 @@
 	width: 20px;
 	float: right;
 	margin-right: 20px;
-	margin-top: 0px
+	margin-top: 0px;
+	
+	transform: rotate(1deg);
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	
+	animation: bRotateClose 0.5s ease;
+	-webkit-animation: bRotateClose 0.5s ease;
+	-ms-animation: bRotateClose 0.5s ease;
+	-moz-animation: bRotateClose 0.5s ease;
+	-o-animation: bRotateClose 0.5s ease;
+}
+
+.imageButton-open {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	
+	animation: bRotateOpen 0.5s ease;
+	-webkit-animation: bRotateOpen 0.5s ease;
+	-ms-animation: bRotateOpen 0.5s ease;
+	-moz-animation: bRotateOpen 0.5s ease;
+	-o-animation: bRotateOpen 0.5s ease;
 }
 
 .QuestionContainer {
@@ -37,13 +71,29 @@
 }
 
 .answercontainer {
+	height:auto;
+	transition: max-height 0.5s ease, margin-top 0.5s ease;
+	margin-top: 0;
+	max-height: 0;
+	overflow:hidden;
+}
+
+.answercontainer-open {
+	transition: max-height 0.5s ease, margin-top 0.5s ease;
 	margin-top: 20px;
+	max-height: 1000px;
 }
 
 #HeadingContainer {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
+
+#ColHead {
+	min-height: 50px;
+}
+
+/*Element Tags*/
 
 body > * {
 	text-align: center;
@@ -59,9 +109,68 @@ h1 {
 }
 
 h2 {
-	font-family: 'Rambla';
+	font-family: 'Source Sans Pro';
 }
 
-li {
+h3 {
+	font-family: 'Rambla';
+	vertical-align: center;
+}
+
+li, p {
 	font-family: 'Quicksand';
+}
+
+/*Animations*/
+
+/*Button close*/
+@keyframes bRotateClose {
+0% {transform: rotate(180deg);}
+100% {transform: rotate(0deg);}
+}
+
+@-moz-keyframes bRotateClose {
+0% {-moz-transform: rotate(180deg);}
+100% {-moz-transform: rotate(0deg);}
+}
+
+@-webkit-keyframes bRotateClose {
+0% {-webkit-transform: rotate(180deg);}
+100% {-webkit-transform: rotate(0deg);}
+}
+
+@-o-keyframes bRotateClose {
+0% {-o-transform: rotate(180deg);}
+100% {-o-transform: rotate(0deg);}
+}
+
+@-ms-keyframes bRotateClose {
+0% {-ms-transform: rotate(180deg);}
+100% {-ms-transform: rotate(0deg);}
+}
+
+/*Button open*/
+@keyframes bRotateOpen {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(180deg);}
+}
+
+@-moz-keyframes bRotateOpen {
+0% {-moz-transform: rotate(0deg);}
+100% {-moz-transform: rotate(180deg);}
+}
+
+@-webkit-keyframes bRotateOpen {
+0% {-webkit-transform: rotate(0deg);}
+100% {-webkit-transform: rotate(180deg);}
+}
+
+@-o-keyframes bRotateOpen {
+0% {-o-transform: rotate(0deg);}
+100% {-o-transform: rotate(180deg);}
+}
+
+@-ms-keyframes bRotateOpen {
+0% {-ms-transform: rotate(0deg);}
+100% {-ms-transform: rotate(180deg);}
 }
