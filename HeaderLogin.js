@@ -3,7 +3,7 @@ var loginDetail = window.localStorage.getItem("Email");
 //Checks if user has been logged in
 if (loginDetail != null && loginDetail != "") {
 	//Is logged in, show email
-	document.getElementById("LoginB").innerHTML = loginDetail + "<br>Signup";
+	document.getElementById("LoginB").innerHTML = loginDetail + "<br>Sign out";
 }
 
 function loginClick() {
