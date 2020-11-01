@@ -13,6 +13,7 @@
 	border-style: solid;
 	border-radius: 7px;
 	margin: 0 15px 0 15px;
+	min-height: 500px;
 }
 
 .openable {
@@ -85,12 +86,29 @@
 }
 
 #HeadingContainer {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 #ColHead {
 	min-height: 50px;
+	margin-top: 20px;
+}
+
+#GetStarted {
+	font-family: 'Quicksand';
+	font-size: 35px;
+	margin-top: 40px;
+}
+
+#GetStartedSub {
+	font-family: 'Quicksand';
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#Faq {
+	margin-bottom: 45px;
 }
 
 /*Element Tags*/
@@ -114,11 +132,32 @@ h2 {
 
 h3 {
 	font-family: 'Rambla';
-	vertical-align: center;
+	font-size: 25px;
+}
+
+h4 {
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	color: #383838;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+h5 {
+	font-family: 'Quicksand';
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 li, p {
 	font-family: 'Quicksand';
+}
+
+hr{
+	margin-top: 15px;
 }
 
 /*Animations*/
