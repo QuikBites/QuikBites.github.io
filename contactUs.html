@@ -78,7 +78,7 @@
         <div class="footer-section about">
             <h1 class="logo-text"><span>Quik</span>Bites</h1>
             <p>
-                QuikBites is a wait-time management service dedicated to helping customers save their precious time.
+                QuikBites is a wait-time tracking tool dedicated to helping customers save their precious time.
             </p>
             <div class="contact">
                 <span><i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
@@ -103,7 +103,7 @@
         </div>
         <div class="footer-section contact-form">
             <h2>Contact Us</h2>
-            <br>
+            
             <form action="index.html" method="post">
                 <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
                 <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
@@ -125,7 +125,79 @@
 </div>
 
 <!-- // footer-->
-<!--<iframe src="footer.html" id="Footer"></iframe>-->
+
+
+<!-- Go back to top of page button-->
+<style>
+    .back-to-top {
+      background-color: #000000;
+      color: #FFFFFF;
+      opacity: 0;
+      transition: opacity .6s ease-in-out;
+      z-index: 999;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 50px;
+      height: 50px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+  
+    a.back-to-top {
+      font-weight: 1000;
+      letter-spacing: 2px;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1.6;
+      padding-left: 2px;
+      padding-top: 14px;
+    }
+  
+    .back-to-top:hover, .back-to-top:focus, .back-to-top:visited {
+      color: #FFFFFF;
+    }
+  
+    .back-to-top.show {
+      opacity: 1;
+    }
+  </style>
+  
+  <!-- Adds the back to top link to your website -->
+  <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">^</a>
+  
+  <!-- Fades in the button when you scroll down -->
+  <script>
+    var link = document.getElementById("back-to-top");
+    var amountScrolled = 250;
+  
+    window.addEventListener('scroll', function(e) {
+        if ( window.pageYOffset > amountScrolled ) {
+            link.classList.add('show');
+        } else {
+            link.className = 'back-to-top';
+        }
+    });
+  
+    <!-- Scrolls to Top -->
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+  
+        var distance = 0 - window.pageYOffset;
+        var increments = distance/(500/16);
+        function animateScroll() {
+            window.scrollBy(0, increments);
+            if (window.pageYOffset <= document.body.offsetTop) {
+                clearInterval(runAnimation);
+            }
+        };
+        // Loop the animation function
+        var runAnimation = setInterval(animateScroll, 16);
+    });
+  </script>
+  <!-- // Go back to top of page button-->
 </body>
 
 
