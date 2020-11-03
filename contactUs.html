@@ -81,25 +81,23 @@
                 QuikBites is a wait-time management service dedicated to helping customers save their precious time.
             </p>
             <div class="contact">
-                <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
-                <span><i class="fas fa-envelope"></i> &nbsp; info@quikbites.com</span>
+                <span><i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+                <span><i class="fa fa-envelope"></i> &nbsp; info@quikbites.com</span>
             </div>
             <div class="socials">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
             </div>
         </div>
         <div class="footer-section links">
             <h2>Quick Links</h2>
-            <br>
+            
             <ul>
                 <a href="#"><li>Home</li></a>
                 <a href="#"><li>Pricing</li></a>
                 <a href="#"><li>Near You</li></a>
                 <a href="#"><li>The Team</li></a>
-                <a href="#"><li>Events</li></a>
                 <a href="#"><li>Events</li></a>
             </ul>
         </div>
@@ -109,11 +107,15 @@
             <form action="index.html" method="post">
                 <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
                 <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
-                <button type="submit" class="btn btn-big contact-btn">
-                    <i class="fas fa-envelope"></i>
+                <button onclick="myFunction()" type="submit" class="btn btn-big contact-btn">
+                    <i class="fa fa-envelope"></i>
                     Send
 
-                </button>   
+                </button>
+                <script>function myFunction() {
+                    alert("Your message has been sent!");
+                }
+                </script>   
             </form>
         </div>
     </div>
