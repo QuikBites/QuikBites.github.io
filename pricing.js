@@ -1,13 +1,14 @@
 
 //List of all FAQ questions
 var Questions = [
-	["Question 1", "Answer 1"],
-	["Question 2", "Answer 2"],
-	["Question 3", "Answer 3"],
-	["Question 4", "Answer 4"],
-	["Question 5", "Answer 5"]
+	["Can I put my restaurant through a short trial period", "If you would like to trial Quikbites, contact sales for a specialized support assistant to find the best option for you."],
+	["Which pricing plan should I choose?", "We understand that every restaurant is different on campus and will require different features depending on your situation. Each plan above have a list of features but if you require assistance or a specialized plan, contact sales."],
+	["How can we benefit from Quikbites?", "Students on campus who are hungry always wants to make it back to class on time. Sometimes they decide that not going to a restaurant is safer because they cannot afford to wait in a line. Quikbites gives students this information allowing restaurants to gain more student customers who know that they can eat, and make it back to class."],
 ];
 
+function onContactSales() {
+	window.location.href = "./contactUs.html";
+}
 
 //When the button to open or close a question box is clicked
 function onOpenQuestion(id) {
