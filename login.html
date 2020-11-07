@@ -54,22 +54,23 @@
 			<iframe src="header.html" id="Header"></iframe>
 			<!--TODO: Replace Temporary Image-->
 			<div id="CenterArea">
-				<p class="title">QuikBites Login</p><br>
-				
+				<p class="title"><span class="yellow">Quik</span>Bites</p>
+				<p class = "subtitle">Thousands of students use QuikBites to choose restaurants</p>
 				<hr>
 				
-				<p>Email</p>
-				<div>
-					<input type="text" id="Email">
+				<p id="fieldHeader" style="margin-top: 35px;">Email</p>
+				<div class="area">
+					<input type="text" id="Email" class="field">
 				</div>
-				<p>Password</p>
-				<div>
-					<input type="text" id="Pass"><br>
+				<p id="fieldHeader">Password</p>
+				<div class="area" style="margin-bottom: 35px;">
+					<input type="text" id="Pass" class="field"><br>
 				</div>
 				<div>
-					<button onclick="onLog()">Login</button><br>
-					<button onclick="onSign()">Sign up</button>
+					<button class="button" onclick="onLog();">Login</button><br>
+					<button class="button"  onclick="onSign()">Sign up</button>
 				</div>
+				<br>
 				<p id="Error"></p>
 			</div>
 		</div>
