@@ -28,10 +28,9 @@ a{
 	
 }
 .menu-left a{
-	color: #4a5057;
+	color: #337443;
 	font-size: 16px;
 	margin: 0px 15px;
-	font-family: myriad pro regular;
 	font-weight: 600;
 }
 .menu-left img{
@@ -567,7 +566,7 @@ footer{
 	
 	.menu-left a{
 		margin:0px 10px;
-		font-size:14px;		
+		font-size:100px;		
 	}
 	nav{
 		padding:15px 30px;
