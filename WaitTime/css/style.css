@@ -29,7 +29,7 @@ a{
 }
 .menu-left a{
 	color: #337443;
-	font-size: 16px;
+	font-size: 22px;
 	margin: 0px 15px;
 	font-weight: 600;
 }
@@ -54,7 +54,7 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: calibri;
+	/*font-family: calibri;*/
 	font-weight: bold;
 	position: absolute;
 	right: 0;
@@ -100,7 +100,7 @@ nav{
 	
 }
 .box p{
-	font-family: calibri;
+	/*font-family: calibri;*/
 
 	/*text-align: center;*/
 margin: 0px;
@@ -259,14 +259,14 @@ margin: 0px;
 	background-position: center;
 }
 .s-box a{
-	font-family: myriad pro;
+	/*font-family: myriad pro;*/
 	font-weight: bold;
 	color:#313131;
 	font-size: 18px;
 	margin: 10px 0px;
 }
 .s-box p{
-	font-family: myriad pro;
+	/*font-family: myriad pro;*/
 	color:#313131;
 	font-size: 14px;
 }
@@ -324,7 +324,7 @@ margin: 0px;
 }
 
 .t-id {
-	font-family: myriad pro;
+	/*font-family: myriad pro;*/
 	
 	
 }
@@ -356,16 +356,16 @@ margin: 0px;
 	background-image: url("../images/Cleveland_Brown_Jr.png");
 }
 .t-img2{
-	background-image:url("../images/Cleveland_Brown_Jr.png");
+	background-image:url("../images/KyleDulceFace.png");
 }
 .t-img3{
-	background-image: url("../images/Cleveland_Brown_Jr.png")
+	background-image: url("../images/MichiasProfile.jpeg")
 }
 .t-img4{
 	background-image: url("../images/Cleveland_Brown_Jr.png");
 }
 .t-img5{
-	background-image: url("../images/Cleveland_Brown_Jr.png");
+	background-image: url("../images/Hafsa Salad Face.jpg");
 }
 .t-img6{
 	background-image:url("../images/Cleveland_Brown_Jr.png");
@@ -378,8 +378,8 @@ margin: 0px;
 	flex-direction:column;
 	justify-content: center;
 	align-items: center;
-	background-color:#bb0c0c ;
-	font-family: myriad pro;
+	background-color:#b3272d ;
+	/*font-family: myriad pro;*/
 }
 .contact h1{
 	color:#FFFFFF;
@@ -566,7 +566,7 @@ footer{
 	
 	.menu-left a{
 		margin:0px 10px;
-		font-size:100px;		
+		/*font-size:100px;*/		
 	}
 	nav{
 		padding:15px 30px;

@@ -1,4 +1,3 @@
-
 .lSSlideOuter {
     overflow: hidden;
     -webkit-touch-callout: none;
@@ -65,7 +64,6 @@
 .lSSlideWrapper.usingCss .lSFade > *.active {
     opacity: 1;
 }
-
 
 .lSSlideOuter .lSPager.lSpg {
     margin: 10px 0 0;
