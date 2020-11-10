@@ -323,11 +323,11 @@ margin: 0px;
 	background-repeat: no-repeat;
 }
 
-.t-id {
-	/*font-family: myriad pro;*/
+/*.t-id {*/
+	/*font-family: myriad pro;
 	
 	
-}
+}*/
 .t-id a{
 	font-size: 18px;
 	color:#3d3d3e;
@@ -353,7 +353,7 @@ margin: 0px;
 	margin-top: 20px;
 }
 .t-img1{
-	background-image: url("../images/Cleveland_Brown_Jr.png");
+	background-image: url("../images/No_pic.png");
 }
 .t-img2{
 	background-image:url("../images/KyleDulceFace.png");
@@ -362,13 +362,13 @@ margin: 0px;
 	background-image: url("../images/MichiasProfile.jpeg")
 }
 .t-img4{
-	background-image: url("../images/Cleveland_Brown_Jr.png");
+	background-image: url("../images/Qass.png");
 }
 .t-img5{
 	background-image: url("../images/Hafsa Salad Face.jpg");
 }
 .t-img6{
-	background-image:url("../images/Cleveland_Brown_Jr.png");
+	background-image:url("../images/MohamedTalbeFace.JPG");
 }
 
 .contact{
