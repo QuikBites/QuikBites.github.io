@@ -55,34 +55,30 @@
     height: 400px;
 }
 
-.rounded1{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50px;
-    right: 350px;
-    border: #000 3px solid;
+.triImgContainer{
+    height: 390px;
+    width: 1024px;
+    margin: auto;
 }
 
-.rounded2{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50px;
-    right: 45%;
-    border: #000 3px solid;
+.rounded{
+    float: left;
+    width: 30%;
+    margin: 20px;
+    overflow-inline: hidden;
 }
 
-.rounded3{
+.rouded1{
+    float: right;
+    width: 30%;
+    margin: 20px;
+    overflow-inline: hidden;
+}
+
+.roundedImg{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
-    top: 50px;
-    float: inline-end;
-    margin-left: 300px;
     border: #000 3px solid;
 }
 
