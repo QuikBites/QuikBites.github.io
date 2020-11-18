@@ -1,5 +1,4 @@
 #Header {
-    top: 0%;
     width: 100%;
     border-style: none;
     margin-bottom: 0;
@@ -17,6 +16,11 @@
 
 .clr{
     clear: both;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 .background{
@@ -56,23 +60,34 @@
 }
 
 .triImgContainer{
-    height: 390px;
+    height: 300px;
     width: 1024px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
 }
 
 .rounded{
     float: left;
-    width: 30%;
-    margin: 20px;
+    width: 33%;
+    margin: 1px;
     overflow-inline: hidden;
+    text-align: center;
+    font-family: Rambla; 
 }
 
-.rouded1{
+.rounded1{
     float: right;
-    width: 30%;
-    margin: 20px;
+    width: 33%;
+    margin: 1px;
     overflow-inline: hidden;
+    text-align: center;
+    font-family: Rambla; 
+}
+
+h3{
+    padding: 20px;
+    font-size: 20px;
 }
 
 .roundedImg{
