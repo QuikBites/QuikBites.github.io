@@ -1,3 +1,20 @@
+/*Header and footer styling*/
+#Header {
+	position: relative;
+	width: 100%;
+	border-style: none;
+	background-color: #b3272d;
+	height: 100px;
+}
+
+#Footer {
+	width: 100%;
+	border-style: none;
+	height: 400px;
+	margin-bottom: 0px;
+	display:flex;
+}
+
 /*
 HOME PAGE CSS STUFF
 
