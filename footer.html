@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="./stylesheet.css"
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function direct(link) {
+          window.top.location.href = link;
+        }
+      </script>
 </head>
 
 <body>
@@ -31,11 +36,11 @@
             <h2>Quick Links</h2>
             
             <ul>
-                <a href="./index.html"><li>Home</li></a>
-                <a href="./pricing.html"><li>Pricing</li></a>
-                <a href="./near-you.html"><li>Near You</li></a>
-                <a href="./contactUs.html"><li>The Team</li></a>
-                <a href="./Restaurant info/info.html"><li>Information</li></a>
+                <a onclick="direct('./index.html')" href="./index.html"><li>Home</li></a>
+                <a onclick="direct('./pricing.html')" href="./pricing.html"><li>Pricing</li></a>
+                <a onclick="direct('./near-you.html')" href="./near-you.html"><li>Near You</li></a>
+                <a onclick="direct('./contactUs.html')" href="./contactUs.html"><li>The Team</li></a>
+                <a onclick="direct('./Restaurant info/info.html')" href="./Restaurant info/info.html"><li>Information</li></a>
             </ul>
         </div>
         <div class="footer-section contact-form">
