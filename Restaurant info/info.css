@@ -30,7 +30,7 @@ h1 {
 
 h2 {
 	font-family: "Rambla", sans serif;
-	color: #b3272d;
+	color: white;
 }
 h3 {
 	font-family: "Rambla", sans serif;
@@ -209,7 +209,7 @@ body, html {
     width: 33%;
     height: 100%;
     float: left;
-    background-color: white;
+    background-color: #b3272d;
     border-collapse: separate;
 	border-spacing: 1px 10px;
 
@@ -219,7 +219,7 @@ body, html {
     width: 34%;
     height: 100%;
     float: left;
-    background-color: white;
+    background-color: #b3272d;
     border-collapse: separate;
 	border-spacing: 1px 10px;
 
@@ -229,7 +229,7 @@ body, html {
 	width: 33%;
 	height: 100%;
 	float: right;
-	background-color: white;
+	background-color: #b3272d;
 	border-collapse: separate;
 	border-spacing: 1px 10px;
 
@@ -246,18 +246,18 @@ body, html {
 .h2{
 	font-family: "Rambla", sans serif;
 	font-size: 15px;
-	color: teal;
+	color: red;
 
 }
 .p1 {
 	font-family: "Rambla", sans serif;
 	font-size: 15px;
-	color: #b3272d;
+	color: white;
 }
 .p2 {
 	font-family: "Rambla", sans serif;
 	font-size: 15px;
-	color: #b3272d;
+	color: white;
 
 
 }
@@ -273,7 +273,7 @@ img.resize {
 /****Background Strips************/
 
 .strip1 {
-	background-image: url("mockups/images/strip.jpg");
+	background-image: url("foods.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
