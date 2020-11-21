@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Header</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Quikbites</title>
+		<link rel="stylesheet" href="header.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
 	</head>
-	<body>
+	<body class="header">
 	
-	<div id="Left">
-		<img source="Quikbites long red.png" onclick="direct('./index.html')"></img>
-	</div>
-	<div id="Right">
-		<a onclick="direct('./Restaurant info/info.html')" href="./Restaurant info/info.html"><li>Information</li></a>
-        <a onclick="direct('./pricing.html')" href="./pricing.html"><li>Pricing</li></a>
-        <a onclick="direct('./near-you.html')" href="./near-you.html"><li>Near You</li></a>
-        <a onclick="direct('./contactUs.html')" href="./contactUs.html"><li>The Team</li></a>
+	<img src="Quikbites long red.png" class="logo" onclick="direct('./index.html')"></img>
+	<div class="header-right">
+		<a onclick="direct('./Restaurant info/info.html')" href="./Restaurant info/info.html">Information</a>
+        <a onclick="direct('./pricing.html')" href="./pricing.html">Pricing</a>
+        <a onclick="direct('./near-you.html')" href="./near-you.html">Near You</a>
+        <a onclick="direct('./contactUs.html')" href="./contactUs.html">The Team</a>
 		
-		<button id="LoginB" onclick="loginClick()">Login</button>
+		<a class="active" id="LoginB" href="" onclick="loginClick()">Login</a>
 	</div>
 	
 	
