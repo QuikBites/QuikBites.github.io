@@ -5,9 +5,14 @@
 	<body>
 	
 	<div id="Left">
-		<img source="Quikbites long red.png"></img>
+		<img source="Quikbites long red.png" onclick="direct('./index.html')"></img>
 	</div>
-	<div id="right">
+	<div id="Right">
+		<a onclick="direct('./Restaurant info/info.html')" href="./Restaurant info/info.html"><li>Information</li></a>
+        <a onclick="direct('./pricing.html')" href="./pricing.html"><li>Pricing</li></a>
+        <a onclick="direct('./near-you.html')" href="./near-you.html"><li>Near You</li></a>
+        <a onclick="direct('./contactUs.html')" href="./contactUs.html"><li>The Team</li></a>
+		
 		<button id="LoginB" onclick="loginClick()">Login</button>
 	</div>
 	
@@ -16,3 +21,8 @@
 	</body>
 </html>
 <script src="HeaderLogin.js"></script>
+<script>
+  function direct(link) {
+    window.top.location.href = link;
+  }
+</script>
