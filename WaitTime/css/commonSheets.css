@@ -1,3 +1,4 @@
+
 /*Header and footer styling*/
 #Header {
 	position: relative;
@@ -10,6 +11,9 @@
 #Footer {
 	width: 100%;
 	border-style: none;
+	height: 400px;
+	margin-bottom: 0px;
+	display:flex;
 }
 
 /*Resets all padding margins and borders for all elements for header*/
@@ -19,7 +23,7 @@
 }
 
 html, body{
-	height: 100%
+	height: auto;
 }
 
 /*Font setup*/

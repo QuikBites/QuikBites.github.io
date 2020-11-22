@@ -1,11 +1,81 @@
 body {
-    font-family: "Rambla", sans serif;
+    font-family: Arial, Helvetica, sans-serif ;
     margin: 0;
     height: 100%;
+    background-color: ;
 }
+
 
 html {
     box-sizing: border-box;
+}
+
+.team-section {
+    overflow: hidden;
+    text-align: center;
+    background: #5D5C61;
+    padding: 60px;
+}
+
+.team-section h2 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+.border {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+
+.ps {
+    margin-bottom: 40px;
+}
+
+.ps a {
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ps a img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a:hover > img {
+    filter: none;
+}
+
+.section {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target {
+    height: auto;
+}
+
+.name {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
 }
 
 .column {
@@ -91,10 +161,12 @@ html {
 #page-container {
     position: relative;
     min-height: 100vh;
+    background-color: #5D5C61;
 }
 
 #content-wrap {
     padding-bottom: 2.5rem;
+    
 }
 
 #footer {
@@ -182,9 +254,9 @@ html {
     background: #1a1a1a;
 }
 
-/*.footer .footer-content .contact-form .contact-btn {
+.footer .footer-content .contact-form .contact-btn {
     float: ;
-}*/
+}
 
 .footer .footer-bottom {
     background: #343a40;

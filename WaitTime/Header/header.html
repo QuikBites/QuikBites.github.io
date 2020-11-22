@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Quikbites</title>
+		<link rel="stylesheet" href="header.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+	</head>
+	<body class="header">
+	
+	<img src="Quikbites long red.png" class="logo" onclick="direct('./index.html')"></img>
+	<div class="header-right">
+		<a onclick="direct('./WaitTime/WaitTime.html')" href="./WaitTime/WaitTime.html">Wait Times</a>
+		<a onclick="direct('./Restaurant info/info.html')" href="./Restaurant info/info.html">Information</a>
+        <a onclick="direct('./pricing.html')" href="./pricing.html">Pricing</a>
+        <a onclick="direct('./contactUs.html')" href="./contactUs.html">The Team</a>
+		
+		<a class="active" id="LoginB" href="" onclick="loginClick()">Login</a>
+	</div>
+	
+	
+
+	</body>
+</html>
+<script src="HeaderLogin.js"></script>
+<script>
+  function direct(link) {
+    window.top.location.href = link;
+  }
+</script>
