@@ -188,15 +188,18 @@ p{
     font-family: Quicksand;
 	color:#fff;
     border:none;
-    position: absolute;
     top: 100px;
-    margin-left: 700px;
     height: 80px;
     width: 141px;
     font-size: 25px;
+    border-radius: 8%;
 }
 
 .button:hover{
 	background: #333;
 	color:#fff;
+}
+
+.btn{
+    text-align: center;
 }
