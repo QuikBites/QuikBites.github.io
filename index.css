@@ -25,10 +25,10 @@ body{
 
 .background{
     margin: 0;
-    background-image: url(images/food.jpg);
+    background-image: url(images/table2.jpg);
     background-size: cover;
     position: relative;
-    height: 780px;
+    height: 700px;
     background-position: center;
 }
 
@@ -45,7 +45,7 @@ body{
 .slogan{
     position: absolute;
     top: 380px;
-    right: 25%;
+    right: 33%;
     text-align: center;
     font-family: Rambla;
     color: #ffdb58;
@@ -54,17 +54,20 @@ body{
 
 /*#ffdb58*/
 
-.container{
-    position: relative;
-    height: 400px;
-}
-
 .triImgContainer{
-    height: 300px;
+    height: 450px;
     width: 1024px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
+}
+
+.slogan2{
+    font-family: Rambla;
+    color: #b3272d;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 60px;
 }
 
 .rounded{
@@ -82,29 +85,27 @@ body{
     margin: 1px;
     overflow-inline: hidden;
     text-align: center;
-    font-family: Rambla; 
+    font-family: Rambla;
+    color: #b3272d; 
 }
 
 h3{
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
+    color: #b3272d;
 }
 
 .roundedImg{
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     border: #000 3px solid;
 }
 
-.des1{
+.desRight{
     float: right;
     width: 35%;
     padding: 15px;
-    background-color:#b3272d;
-    height: 450px;
-    border: 1px #b3272d solid;
-    border-radius: 8%;
     margin-right: 50px;
     margin-bottom: 5px;
 }
@@ -122,82 +123,77 @@ a:active{
 	color: red;
 }
 
-.img1{
-    position: absolute;
+.RedBack{
+    background: linear-gradient(180deg, #b3272d,#b32765);
+    height: 600px;
+}
+
+.YellowBack{
+    background: linear-gradient(180deg, #ffdb58,#ffff58);
+    height: 600px;
+}
+
+.imgLeft{
     float: left;
     width: 55%;
     padding: 15px;
-    height: 450px;
-    background-image: url(images/happycCostumers.jpg);
-    background-size: cover;
-    background-position: 0px 0px 0px 150px;
-    border-radius: 8%;
+    height: auto;
     margin-left: 50px;
     margin-bottom: 5px;
 }
 
-.des2{
+.desLeft{
     float: left;
     width: 35%;
     padding: 15px;
-    background-color:#b3272d;
     height: 450px;
-    border: 1px #b3272d solid;
     border-radius: 8%;
     margin-left: 50px;
     margin-bottom: 5px;
 }
-.img2{
+.imgRight{
     float: right;
     width: 55%;
     padding: 15px;
-    height: 450px;
-    border-radius: 8%;
+    padding-top: 60px;
+    height: auto;
     margin-right: 50px;
-    background-image: url(images/restaurant.jpg);
-    background-size: cover;
-    margin-bottom: 5px;
-}
-.img3{
-    position: absolute;
-    float: left;
-    width: 55%;
-    padding: 15px;
-    height: 450px;
-    background-image: url(images/cafe.jpg);
-    background-size: cover;
-    background-position: 0px 0px 0px 150px;
-    border-radius: 8%;
-    margin-left: 50px;
     margin-bottom: 5px;
 }
 
 p{
     font-family: Quicksand;
     color: #fff;
+    font-size: 25px;
+    padding: 100px;
 }
 
 .buttonContainer{
-    margin-top: 5px;
-    height: 150px;
+    height: 200px;
     position: relative;
     background-color: #b3272d;
     padding-top: 50px;
     padding-left: 50px;
     color: #fff;
+}
+
+.download{
     font-family: Quicksand;
+    font-size: 35px;
+    text-align: center;
 }
 
 .button{
     background-color: #ffdb58;
     font-family: Quicksand;
 	color:#fff;
-	padding:10px 15px;
     border:none;
-    font-family: Quicksand;
     position: absolute;
     top: 100px;
-    margin-left: 180px;
+    margin-left: 700px;
+    height: 80px;
+    width: 141px;
+    font-size: 25px;
 }
 
 .button:hover{
