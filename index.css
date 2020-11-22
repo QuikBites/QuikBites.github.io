@@ -38,7 +38,7 @@ body{
     right: 35%;
     text-align: center;
     font-family: Rambla;
-    color: #ffdb58;
+    color: #e1ad01;
     font-size: 80px;
 }
 
@@ -48,7 +48,7 @@ body{
     right: 33%;
     text-align: center;
     font-family: Rambla;
-    color: #ffdb58;
+    color: #e1ad01;
     font-size: 35px;
 }
 
@@ -112,7 +112,7 @@ h3{
 
 a{
 	text-decoration: none;
-	color: #ffdb58;
+	color: #e1ad01;
 }
 
 a:hover{
@@ -184,7 +184,7 @@ p{
 }
 
 .button{
-    background-color: #ffdb58;
+    background-color: #e1ad01;
     font-family: Quicksand;
 	color:#fff;
     border:none;
